@@ -81,35 +81,19 @@ export default function ViewPage() {
             </CardContent>
           </Card>
 
-          <div className="grid gap-4 sm:grid-cols-2">
-            <Card className="border-0 bg-white/60 backdrop-blur-sm">
-              <CardHeader>
-                <CardTitle className="text-lg flex items-center gap-2">
-                  <Lock className="w-5 h-5" style={{ color: '#008dda' }} />
-                  Secure Access
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-sm text-muted-foreground">
-                  Your session is encrypted and secure
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-0 bg-white/60 backdrop-blur-sm">
-              <CardHeader>
-                <CardTitle className="text-lg flex items-center gap-2">
-                  <ExternalLink className="w-5 h-5" style={{ color: '#008dda' }} />
-                  Need Help?
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-sm text-muted-foreground">
-                  Contact support for any assistance
-                </p>
-              </CardContent>
-            </Card>
-          </div>
+          <Card className="border-0 bg-white/60 backdrop-blur-sm max-w-md mx-auto">
+            <CardHeader>
+              <CardTitle className="text-lg flex items-center gap-2">
+                <Lock className="w-5 h-5" style={{ color: '#008dda' }} />
+                Secure Access
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p className="text-sm text-muted-foreground">
+                Your session is encrypted and secure
+              </p>
+            </CardContent>
+          </Card>
         </div>
       </main>
     </div>
